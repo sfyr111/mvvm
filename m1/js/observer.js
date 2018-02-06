@@ -24,6 +24,7 @@ function defineReactive(data, key, val) {
     enumerable: true, // 可枚举
     configurable: false, // key 属性不可删除
     get() {
+      Dep.target && dep.addDep(Dep.target) // 伪，添加订阅者
       return val
     },
     set(newVal) {
@@ -41,7 +42,7 @@ function defineReactive(data, key, val) {
  * @proto notify {func} 通知所有subs订阅者 -> 更新
  */
 function Dep() {
-  this.subs = []
+  this.subs = [] // 存放的是watcher 多个订阅者
 }
 
 Dep.prototype.addSub = function(sub) {
