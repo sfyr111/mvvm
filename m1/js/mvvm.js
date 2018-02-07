@@ -50,3 +50,7 @@ MVVM.prototype._initComputed = function() {
     })
   }
 }
+
+MVVM.prototype.$watch = function(key, cb, options) {
+  new Watcher(this, key, cb)
+}

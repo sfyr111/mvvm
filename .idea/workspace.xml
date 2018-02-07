@@ -21,24 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/m1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="648">
+              <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
               <folding>
-                <marker date="1517995359000" expanded="true" signature="769:776" ph="..." />
-                <marker date="1517995359000" expanded="true" signature="769:789" ph="..." />
+                <marker date="1518006494000" expanded="true" signature="979:991" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvvm.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mvvm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m1/js/mvvm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="626">
+              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -47,7 +46,7 @@
       <file leaf-file-name="observer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m1/js/observer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="-244">
               <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding />
             </state>
@@ -67,7 +66,7 @@
       <file leaf-file-name="compile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m1/js/compile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
+            <state relative-caret-position="326">
               <caret line="146" column="1" lean-forward="true" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
               <folding>
                 <element signature="e#2926#3095#0" expanded="false" />
@@ -105,11 +104,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/m1/index.html" />
         <option value="$PROJECT_DIR$/m1/js/observer.js" />
         <option value="$PROJECT_DIR$/m1/js/compile.js" />
         <option value="$PROJECT_DIR$/m1/js/watcher.js" />
         <option value="$PROJECT_DIR$/m1/js/mvvm.js" />
+        <option value="$PROJECT_DIR$/m1/index.html" />
       </list>
     </option>
   </component>
@@ -233,12 +232,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517901041121</updated>
       <workItem from="1517901043697" duration="16746000" />
-      <workItem from="1517980874482" duration="16966000" />
+      <workItem from="1517980874482" duration="17112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33712000" />
+    <option name="totallyTimeSpent" value="33858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="842" y="0" width="838" height="1050" extended-state="0" />
@@ -280,8 +279,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517995359000" expanded="true" signature="769:776" ph="..." />
-            <marker date="1517995359000" expanded="true" signature="769:789" ph="..." />
+            <marker date="1518006494000" expanded="true" signature="979:991" ph="..." />
           </folding>
         </state>
       </provider>
@@ -323,20 +321,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/m1/js/observer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="-244">
           <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m1/js/compile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="146" column="1" lean-forward="true" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
-          <folding>
-            <element signature="e#2926#3095#0" expanded="false" />
-            <element signature="e#3319#3461#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -348,22 +335,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m1/index.html">
+    <entry file="file://$PROJECT_DIR$/m1/js/compile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="326">
+          <caret line="146" column="1" lean-forward="true" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
           <folding>
-            <marker date="1517995359000" expanded="true" signature="769:776" ph="..." />
-            <marker date="1517995359000" expanded="true" signature="769:789" ph="..." />
+            <element signature="e#2926#3095#0" expanded="false" />
+            <element signature="e#3319#3461#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m1/js/mvvm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="626">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding>
+            <marker date="1518006494000" expanded="true" signature="979:991" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
