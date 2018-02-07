@@ -8,6 +8,8 @@ function MVVM(options) {
     _this._proxyData(key)
   })
 
+  this._initComputed()
+
   observe(data, this)
 
   // 绑定html
@@ -31,4 +33,20 @@ MVVM.prototype._proxyData = function(key) {
       _this._data[key] = newVal
     }
   })
+}
+
+MVVM.prototype._initComputed = function() {
+  const _this = this
+  let computed = this.$options.computed
+  if (typeof computed === 'object') {
+    Object.keys(computed).forEach(function(key) {
+      Object.defineProperty(_this, key, {
+        // 计算属性的两种情况
+        get: typeof computed[key] === 'function'
+                ? computed[key]
+                : computed[key].get,
+        set: function() {}
+      })
+    })
+  }
 }

@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvvm.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mvvm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/m1/js/mvvm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="63" />
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="watcher.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="watcher.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m1/js/watcher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="54" column="61" lean-forward="false" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+            <state relative-caret-position="525">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -93,10 +93,10 @@
       <find>new watch</find>
       <find>reg</find>
       <find>Compile</find>
-      <find>addDep</find>
       <find>compileElement</find>
       <find>compile</find>
       <find>getter</find>
+      <find>addDep</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,11 +105,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/m1/js/mvvm.js" />
         <option value="$PROJECT_DIR$/m1/index.html" />
         <option value="$PROJECT_DIR$/m1/js/observer.js" />
         <option value="$PROJECT_DIR$/m1/js/compile.js" />
         <option value="$PROJECT_DIR$/m1/js/watcher.js" />
+        <option value="$PROJECT_DIR$/m1/js/mvvm.js" />
       </list>
     </option>
   </component>
@@ -233,12 +233,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517901041121</updated>
       <workItem from="1517901043697" duration="16746000" />
-      <workItem from="1517980874482" duration="15990000" />
+      <workItem from="1517980874482" duration="16966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32736000" />
+    <option name="totallyTimeSpent" value="33712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="842" y="0" width="838" height="1050" extended-state="0" />
@@ -321,17 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <marker date="1517995359000" expanded="true" signature="769:776" ph="..." />
-            <marker date="1517995359000" expanded="true" signature="769:789" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m1/js/observer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -351,18 +340,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m1/js/mvvm.js">
+    <entry file="file://$PROJECT_DIR$/m1/js/watcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="63" />
+        <state relative-caret-position="525">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m1/js/watcher.js">
+    <entry file="file://$PROJECT_DIR$/m1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="54" column="61" lean-forward="false" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <marker date="1517995359000" expanded="true" signature="769:776" ph="..." />
+            <marker date="1517995359000" expanded="true" signature="769:789" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m1/js/mvvm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
