@@ -1,7 +1,16 @@
 function MVVM(options) {
-  this.$options = options
+  this.$options = options || {}
   const data = this._data = this.$options.data
+  const _this = this
+
+  // data 数据代理
+  Object.keys(data).forEach(function(key) {
+    _this._proxyData(key)
+  })
+
   observe(data, this)
+
+  // 绑定html
   this.$compile = new Compile(options.el || document.body, this)
 }
 
@@ -10,7 +19,7 @@ function MVVM(options) {
  * @param key
  * @private
  */
-MVVM.prototype._proxy = function(key) {
+MVVM.prototype._proxyData = function(key) {
   const _this = this
   Object.defineProperty(_this, key, {
     configurable: false,

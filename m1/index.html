@@ -12,6 +12,30 @@
   <script src="./js/mvvm.js"></script>
 </head>
 <body>
-
+  <div id="app">
+    <p>{{str}}</p>
+    <p>{{childObj.title}}</p>
+    <p v-html="htmlStr"></p>
+    <button v-on:click="btnClick">click</button>
+  </div>
+  <script>
+    const vm = new MVVM({
+      el: '#app',
+      data: {
+        str: 'hello mvvm',
+        className: 'content',
+        htmlStr: '<span style="color: palevioletred">color</span>',
+        childObj: {
+          title: 'title !!'
+        }
+      },
+      methods: {
+        btnClick(e) {
+          let strArr = ['one', 'two', 'three']
+          this.childObj.title = strArr[Math.random() * 3 | 0]
+        }
+      }
+    })
+  </script>
 </body>
 </html>
